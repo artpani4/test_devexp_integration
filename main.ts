@@ -6,5 +6,8 @@
 // if (import.meta.main) {
 //   console.log("Add 2 + 3 =", add(2, 3));
 // }
-
-console.log(Deno.env.toObject());
+Deno.serve((_req) => {
+  return new Response(JSON.stringify(Deno.env.toObject(), null, 2), {
+    headers: { "Content-Type": "application/json" },
+  });
+});
