@@ -3,10 +3,5 @@
     "dev": "deno run -A --watch main.ts",
     "ws": "deno run -A  ws.ts"
   },
-  "imports": {
-    "@cliffy/command": "jsr:@cliffy/command@^1.0.0-rc.7",
-    "@cliffy/prompt": "jsr:@cliffy/prompt@^1.0.0-rc.7",
-    "@std/assert": "jsr:@std/assert@1"
-  },
   "importMap": "./import-map.json"
 }
