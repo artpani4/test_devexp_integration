@@ -1,5 +1,5 @@
-import { Command } from "jsr:@cliffy/command@^1.0.0-rc.7";
-import { Input } from "https://jsr.io/@cliffy/prompt/1.0.0-rc.7/mod.ts";
+import { Command } from "jsr:@cliffy/command@1.0.0-rc.7";
+import { Input } from "jsr:@cliffy/prompt@1.0.0-rc.7";
 
 import { useFileFlag } from "./alias/utils.ts";
 import { loadFromFile, recordUsageLocal, saveToFile } from "./alias/file.ts";
