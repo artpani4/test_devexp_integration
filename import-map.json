@@ -1,6 +1,7 @@
 {
   "imports": {
     "@cliffy/command": "jsr:@cliffy/command@^1.0.0-rc.7",
-    "@cliffy/prompt": "jsr:@cliffy/prompt@^1.0.0-rc.7"
+    "@cliffy/prompt": "jsr:@cliffy/prompt@^1.0.0-rc.7",
+    "@std/colors": "https://deno.land/x/cliffy@v0.25.7/ansi/colors.ts"
   }
 }
