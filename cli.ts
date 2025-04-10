@@ -1,4 +1,4 @@
-import { Command } from "jsr:@cliffy/command@1.0.0-rc.7";
+import { Command } from "https://deno.land/x/cliffy@v0.25.4/command/mod.ts";
 import { Input } from "https://deno.land/x/cliffy@v1.0.0-rc.3/prompt/mod.ts";
 
 import { useFileFlag } from "./alias/utils.ts";
