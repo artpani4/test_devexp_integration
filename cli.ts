@@ -1,7 +1,7 @@
-import { Command } from "@cliffy/command";
-import { CompletionsCommand } from "@cliffy/command/completions";
-import { Input } from "@cliffy/prompt";
-import { join } from "https://deno.land/std@0.213.0/path/mod.ts";
+import { Command } from "https://jsr.io/@cliffy/command/1.0.0-rc.7/mod.ts";
+import { CompletionsCommand } from "https://jsr.io/@cliffy/command/1.0.0-rc.7/completions/mod.ts";
+import { Input } from "https://jsr.io/@cliffy/prompt/1.0.0-rc.7/mod.ts";
+import { join } from "jsr:@std/path@~1.0.6";
 
 const HOME = Deno.env.get("HOME") || Deno.env.get("USERPROFILE");
 if (!HOME) {
