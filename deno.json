@@ -1,6 +1,11 @@
 {
   "tasks": {
     "dev": "deno run -A --watch main.ts",
-    "ws": "deno run -A  ws.ts"
+    "ws": "deno run -A  ws_test.ts",
+    "http": "deno run -A  http_test.ts"
+  },
+  "imports": {
+    "@oak/oak": "jsr:@oak/oak@^17.1.4",
+    "@vseplet/luminous": "jsr:@vseplet/luminous@^1.0.6"
   }
 }

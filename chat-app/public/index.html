@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Deno Chat App</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script defer type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <header><h1>🦕 Deno Chat</h1></header>
+    <aside>
+      <h2>Users online</h2>
+      <ul id="users"></ul>
+    </aside>
+    <main>
+      <div id="conversation"></div>
+      <form id="form">
+        <input
+          type="text"
+          id="data"
+          placeholder="Type your message"
+          autocomplete="off"
+        />
+        <button type="submit" id="send">Send</button>
+      </form>
+    </main>
+    <template id="user"><li></li></template>
+    <template id="message"><div>
+        <span></span>
+        <p></p>
+      </div></template>
+  </body>
+</html>
